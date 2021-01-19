@@ -8,7 +8,6 @@ User=minecraft
 Group=minecraft
 UMask=0027
 
-#EnvironmentFile=/etc/conf.d/minecraft
 KillMode=none
 SuccessExitStatus=0 1 255
 
@@ -20,7 +19,6 @@ ProtectSystem=full
 
 WorkingDirectory=/opt/serveur_minecraft
 ExecStart=/usr/bin/java -Xmx1024M -Xms1024M -jar /opt/serveur_minecraft/server.jar nogui
-# ExecStop=/usr/bin/mcrcon -H localhost -p ${RCON_PASSWD} stop
 
 [Install]
 WantedBy=multi-user.target
