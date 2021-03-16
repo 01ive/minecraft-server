@@ -1,4 +1,4 @@
-# Minecraft server
+# Minecraft server autostart on Linux
 
 ## Installation
 
